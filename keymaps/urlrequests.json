@@ -1,0 +1,5 @@
+{
+  ".platform-darwin .workspace": {
+    "ctrl-alt-O": "urlrequest:get"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "urlrequest",
+  "version": "0.0.1",
+  "main": "./lib/urlrequest",
+  "description": "resolves http and https links under the cursor and replaces the line with the request-body `ctrl-alt-shift-o`.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shm/atom-urlrequest"
+  },
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+    "request": "*"
+  },
+  "readme": "# URL Request package\n\nPerforms a GET request on link under the cursor and replaces the line with the request body.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/shm/atom-urlrequest/issues"
+  },
+  "homepage": "https://github.com/shm/atom-urlrequest"
+}
