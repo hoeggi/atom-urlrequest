@@ -1,6 +1,6 @@
 {
   "name": "urlrequest",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./lib/urlrequest",
   "description": "resolves http and https links under the cursor and replaces the line with the request-body `ctrl-alt-shift-o`.",
   "license": "MIT",
