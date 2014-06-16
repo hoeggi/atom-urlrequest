@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'urlrequest-get': 'urlrequest:get'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'urlrequest'
+      'submenu': [
+        { 'label': 'get', 'command': 'urlrequest:get' }
+      ]
+    ]
+  }
+]
